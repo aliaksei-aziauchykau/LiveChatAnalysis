@@ -1,0 +1,31 @@
+
+.nav-bar-container {
+    padding-top: 5px;
+}
+
+ul {
+    height: 50px;
+}
+
+ul li {
+    border-top: 5px solid transparent;
+    display: inline-block;
+    list-style-type: none;
+    padding: 10px 15px;
+    text-transform: uppercase;
+}
+
+ul li.selected {
+    color: white;
+    background-color: #6600af;
+    border: none;
+}
+
+ul li.selected:hover {
+    border-top: 5px solid white;
+}
+
+ul li:hover {
+    border-top: 5px solid #6600af;
+    cursor: pointer;
+}
