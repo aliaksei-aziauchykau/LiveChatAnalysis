@@ -29,3 +29,28 @@ ul li:hover {
     border-top: 5px solid #6600af;
     cursor: pointer;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.cs-nav-list a {
+    display: block;
+    border: 1px solid #6600af;
+}
+
+/* .cs-nav-item.dropdown:hover {
+    display: block;
+} */
+
+.cs-nav-item .cs-nav-dropdown {
+
+}
+
+.cs-nav-item .cs-nav-list {
+    position: absolute;
+    z-index: 1;
+}
+
+
